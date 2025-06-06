@@ -1,0 +1,183 @@
+
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.sidebar {
+    width: 220px;
+    padding-right: 2rem;
+    border-right: 1px solid #ddd;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.publication-card {
+    margin-top: 1.5rem;
+}
+.publication-title {
+    font-size: 1.1rem;
+    color: rgba(70, 110, 169, 0.85);
+    font-weight: 600;
+}
+.publication-authors, .publication-venue {
+    font-size: 0.9rem;
+    color: #555;
+}
+.publication-description {
+    margin: 0.5rem 0;
+}
+.tag {
+    margin-right: 5px;
+}
+
+
+
+h1, h2, h3 {
+    font-family: 'Google Sans', sans-serif;
+    color: #222222;   /* Slightly softer than pure black */
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.sidebar p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.sidebar a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.content section {
+    margin-bottom: 2rem;
+}
+
+.pub-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pub-list li {
+    margin-bottom: 1.25rem;
+}
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ===================== */
+/* Mobile Responsiveness */
+/* ===================== */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 0;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .content {
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .buttons a.button {
+        flex: 1 1 calc(50% - 1rem); /* two per row */
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .publication-card .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .publication-title {
+        font-size: 1rem;
+    }
+
+    .publication-authors,
+    .publication-venue {
+        font-size: 0.85rem;
+    }
+
+    .publication-description {
+        font-size: 0.95rem;
+    }
+
+    .tag {
+        margin-bottom: 0.25rem;
+    }
+}

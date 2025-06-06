@@ -1,47 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Researcher Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jonathan Weiss</title>
+    <meta property="og:site_name" content="Jonathan Weiss">
+    <meta property="og:title" content="Jonathan Weiss"/>
+    <meta name="description" content="Jonathan Weiss' personal webpage.">
+    <meta property="og:description" content="Jonathan Weiss' personal webpage."/>
+    <meta property="og:image" content="static/image/your_banner_image.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <!-- <meta name="twitter:title" content="Jonathan Weiss"> -->
+    <!-- <meta name="twitter:description" content="Jonathan Weiss' personal webpage."> -->
+    <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png"> -->
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <meta name="keywords" content="Jonathan, Weiss, Jonathan Weiss, Jonathan Weiss cryptography">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/versions/bulma-no-dark-mode.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="js/fontawesome.all.min.js"></script>
+
+    <script src="js/index.js"></script>
+    <meta name="google-site-verification" content="FbQSeAQ0Xn5colWcWtIliGR3g_1NnkkgAMnUkjpubto"/>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Jonathan Weiss",
+            "url": "https://jonathanmweiss.github.io",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The Hebrew University of Jerusalem"
+            },
+            "sameAs": [
+                "https://linkedin.com/in/jonathan-weiss-3a8419127",
+                "https://scholar.google.com/citations?user=VhxMEB8AAAAJ&hl=en",
+                "https://github.com/jonathanmweiss",
+            ]
+        }
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Researcher | Academic | Scientist</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="your-photo.jpg" alt="Your Photo" class="profile-pic">
-        <p>Brief bio goes here.</p>
-    </section>
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="#">Title of Paper 1</a> - Journal/Conference Name</li>
-            <li><a href="#">Title of Paper 2</a> - Journal/Conference Name</li>
-        </ul>
-    </section>
-    <section id="blog">
-        <h2>Blog Posts</h2>
-        <p>Coming soon...</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: <a href="#">Your Profile</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Your Name</p>
-    </footer>
+<div class="container is-max-desktop">
+    <div class="sidebar has-text-centered">
+        <figure class="is-centered">
+            <img src="images/me.jpg" alt="Your photo" class="profile-pic"/>
+            Say hello to Soda, my adorable dog! 🐶
+        </figure>
+    </div>
+
+    <div class="content">
+        <h1 class="title">Jonathan Weiss</h1>
+        <div class="buttons">
+            <!-- <a class="button is-small is-light" href="https://x.com/NoySternlicht" target="_blank">
+                <span class="icon"><i class="fab fa-twitter"></i></span>
+                <span>Twitter</span>
+            </a> -->
+            <a class="button is-small is-light" href="https://linkedin.com/in/jonathan-weiss-3a8419127"
+               target="_blank">
+                <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+                <span>Linkedin</span>
+            </a>
+            <a class="button is-small is-light" href="https://orcid.org/0009-0008-0559-6903"
+               target="_blank">
+                <span class="icon"><i class="fab fa-orcid"></i></span> 
+                <!-- TODO: find actual icon? not sure what to put here. -->
+                <span>ORCID</span>
+            </a>
+            <a class="button is-small is-light"
+               href="https://scholar.google.com/citations?user=VhxMEB8AAAAJ&hl=en" target="_blank">
+                <span class="icon"><i class="fas fa-book"></i></span>
+                <span>Google Scholar</span>
+            </a>
+            <a class="button is-small is-light" href="https://github.com/jonathanmweiss" target="_blank">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>GitHub</span>
+            </a>
+        </div>
+        <p>
+            I'm a third-year PhD student at the <b>Hebrew University of Jerusalem</b>,
+            advised by <b><a href="https://www.cs.huji.ac.il/~yossigi/">Dr. Yossi Gilad</a></b>.
+            I focus on distributed and metadata-private communication systems, 
+            and I am passionate about coding, cryptography, and large-scale systems.
+        </p>
+        <p>
+            When I'm not working, you'll catch me sleeping soundly with my dog 💤🐕. 
+        </p>
+    </div>
+</div>
+
+<div class="container is-max-desktop">
+    <div class="content">
+        <h1 class="title mt-6">Research & Publications</h1>
+        <!-- DPIR -->
+        <div class="card publication-card">
+            <div class="card-content">
+                <a class="publication-title" href="https://dl.acm.org/doi/10.1145/3658644.3670350"></a>
+                <p class="publication-authors">Elkana Tovey, Jonathan Weiss, Yossi Gilad</p>
+                <p class="publication-venue">ACM SIGSAC Conference on Computer and Communications Security (CCS 2024)</p>
+                <p class="publication-description">
+                    A distributed Private Information Retrieval (PIR) protocol, with oblivious matrix multiplication verification protocol 
+                    at its core.
+                </p>
+                <div class="tags">
+                    <span class="tag is-small is-light is-info">PIR</span>
+                    <span class="tag is-small is-light is-info">FHE</span>
+                    <span class="tag is-small is-light is-info">metadata-private communication system</span>
+                </div>
+                <div class="buttons mt-3">
+                    <a class="button is-small is-light is-info" href="https://dl.acm.org/doi/10.1145/3658644.3670350" target="_blank">
+                        <span class="icon"><i class="fas fa-file-alt"></i></span>
+                        <span><b>Paper</b></span>
+                    </a>
+                    <a class="button is-small is-light is-info"
+                       href="https://github.com/elkanatovey/distribicom" target="_blank">
+                        <span class="icon"><i class="fab fa-github"></i></span>
+                        <span><b>Code</b></span>
+                    </a>
+                    <a class="button is-small is-light is-info"
+                       href="https://zenodo.org/records/11044475" target="_blank">
+                        <span class="icon"><i class="fas fa-database"></i></span>
+                        <span><b>Artefacts</b></span>
+                    </a> 
+                    <!--
+                    <a class="button is-small is-light is-info"
+                       href="https://github.com/noy-sternlicht/CHIMERA-KB/tree/main/data" target="_blank">
+                        <span class="icon"><i class="fas fa-database"></i></span>
+                        <span><b>Data</b></span>
+                    </a>
+                    <a class="button is-small is-light is-info"
+                       href="https://noy-sternlicht.github.io/CHIMERA-Web" target="_blank">
+                        <span class="icon"><i class="fas fa-external-link-alt"></i></span>
+                        <span><b>Project Page</b></span>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+        <!-- End DPIR -->
+        <!-- RRPC -->
+        <div class="card publication-card">
+            <div class="card-content">
+                <a class="publication-title" href="https://dl.acm.org/doi/10.1145/3422604.3425942">Proving Server Faults: RPCs for Distributed Systems in Byzantine Networks
+</a>
+                <p class="publication-authors">Jonathan Weiss, Albert Kwon, Yossi Gilad</p>
+                <p class="publication-venue">Proceedings of the 19th ACM Workshop on Hot Topics in Networks (2020)</p>
+                <p class="publication-description">
+                    We design rRPC, a robust remote procedure call library for 
+                    distributed systems running in Byzantine networks. 
+                    rRPC ensures that either the call succeeds or the online caller/callee can create a third-party verifiable proof that the other party is faulty
+                </p>
+                <div class="tags">
+                    <span class="tag is-small is-light is-info">RPC</span>
+                    <span class="tag is-small is-light is-info">Byzantine</span>
+                    <span class="tag is-small is-light is-info">Networks</span>
+                </div>
+                <div class="buttons mt-3">
+                    <a class="button is-small is-light is-info" href="https://dl.acm.org/doi/10.1145/3422604.3425942" target="_blank">
+                        <span class="icon"><i class="fas fa-file-alt"></i></span>
+                        <span><b>Paper</b></span>
+                    </a>
+                    <!--
+                    <a class="button is-small is-light is-info"
+                       href="https://noy-sternlicht.github.io/Debatable-Intelligence-Web/" target="_blank">
+                        <span class="icon"><i class="fas fa-external-link-alt"></i></span>
+                        <span><b>Project Page</b></span>
+                    </a> -->
+                </div>
+            </div>
+            <!-- END RRPC -->
+
+        </div>
+           <!-- END Publication CARDS -->
+    </div>
+</div>
+
+
+<!-- Default Statcounter code for Home page https://noy-sternlicht.github.io/
+-->
+<script type="text/javascript">
+    var sc_project = 13138866;
+    var sc_invisible = 1;
+    var sc_security = "83d0c686";
+</script>
+<script type="text/javascript"
+        src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript>
+    <div class="statcounter"><a title="Web Analytics Made Easy -
+Statcounter" href="https://statcounter.com/" target="_blank"><img
+            class="statcounter" src="https://c.statcounter.com/13138866/0/83d0c686/1/"
+            alt="Web Analytics Made Easy - Statcounter"
+            referrerPolicy="no-referrer-when-downgrade"></a></div>
+</noscript>
+<!-- End of Statcounter Code -->
 </body>
 </html>
